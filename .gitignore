@@ -4,5 +4,6 @@ target/
 # modul dari dosen, hak cipta JTK POLBAN, disimpan lokal saja
 materi/
 
-# arsip pengumpulan, dibangun ulang dari isi repo
+# arsip sementara diabaikan, kecuali yang final di folder submission
 *.zip
+!**/submission/*.zip
