@@ -1,0 +1,81 @@
+Riwayat Pengujian Praktikum Aljabar Linear Modul 1
+Ghaisan Khoirul Badruzaman / 251524048 / 2B-D4
+Dijalankan: Monday, 07 September 2026 10:03 WIB
+Mesin: MacBook Pro M2 Pro (aarch64-apple-darwin)
+
+===================== VERSI TOOLCHAIN =====================
+rustc 1.98.1 (48a229cea 2026-09-01)
+cargo 1.98.1 (797e8a9bc 2026-08-05)
+clippy 0.1.98 (48a229ceae 2026-09-01)
+rustfmt 1.9.0-stable (48a229ceae 2026-09-01)
+
+praktikum-al v0.1.0 (/Users/ghaisan/Documents/Kuliah/aljabar-linear/2026-09-07-modul-1/praktikum-al)
+└── nalgebra v0.35.0
+
+===================== cargo build =========================
+   Compiling autocfg v1.5.1
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.24
+   Compiling bytemuck v1.25.2
+   Compiling rawpointer v0.2.1
+   Compiling typenum v1.20.1
+   Compiling wide v1.7.0
+   Compiling num-traits v0.2.19
+   Compiling matrixmultiply v0.3.11
+   Compiling num-complex v0.4.6
+   Compiling approx v0.5.1
+   Compiling num-integer v0.1.47
+   Compiling num-rational v0.4.2
+   Compiling syn v2.0.119
+   Compiling simba v0.10.2
+   Compiling nalgebra-macros v0.3.0
+   Compiling nalgebra v0.35.0
+   Compiling praktikum-al v0.1.0 (/Users/ghaisan/Documents/Kuliah/aljabar-linear/2026-09-07-modul-1/praktikum-al)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.95s
+
+===================== cargo clippy --all-targets ===========
+    Checking bytemuck v1.25.2
+    Checking rawpointer v0.2.1
+    Checking typenum v1.20.1
+    Checking num-traits v0.2.19
+    Checking matrixmultiply v0.3.11
+    Checking wide v1.7.0
+    Checking num-complex v0.4.6
+    Checking approx v0.5.1
+    Checking num-integer v0.1.47
+    Checking num-rational v0.4.2
+    Checking simba v0.10.2
+    Checking nalgebra v0.35.0
+    Checking praktikum-al v0.1.0 (/Users/ghaisan/Documents/Kuliah/aljabar-linear/2026-09-07-modul-1/praktikum-al)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 6.27s
+
+===================== cargo fmt --check ====================
+(tidak ada perubahan format)
+
+===================== cargo test ==========================
+   Compiling praktikum-al v0.1.0 (/Users/ghaisan/Documents/Kuliah/aljabar-linear/2026-09-07-modul-1/praktikum-al)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.29s
+     Running unittests src/main.rs (target/debug/deps/praktikum_al-259a931b5ecf0107)
+
+running 17 tests
+test task1::tests::hampir_sama_menoleransi_galat_float ... ok
+test task1::tests::indexing_dan_slicing ... ok
+test task2::tests::skalar_ujian ... ok
+test task1::tests::pembagian_i32_terpotong ... ok
+test task1::tests::operasi_float_dasar ... ok
+test task1::tests::klasifikasi_genap_ganjil ... ok
+test task2::tests::dot_ujian ... ok
+test task2::tests::tambah_ujian ... ok
+test task2::tests::statistik_nilai_negatif ... ok
+test task2::tests::statistik_ujian ... ok
+test task2::tests::panjang_beda_ditolak - should panic ... ok
+test task3::tests::dot_diri_sendiri_sama_dengan_kuadrat_norma ... ok
+test task3::tests::dot_product_dan_norma ... ok
+test task3::tests::norma_dan_sudut_p_q ... ok
+test task3::tests::operasi_element_wise ... ok
+test task3::tests::statistik_vektor_a ... ok
+test task3::tests::statistik_vektor_w ... ok
+
+test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
