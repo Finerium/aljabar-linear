@@ -1,0 +1,35 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.12s
+     Running unittests src/main.rs (target/debug/deps/praktikum_al-bcba3588647da0d4)
+
+running 28 tests
+test latihan::tests::minkowski_p_tidak_valid ... ok
+test latihan::tests::minkowski_p1_p2_pinf ... ok
+test latihan::tests::latihan2_proyeksi ... ok
+test latihan::tests::tantangan_cauchy_schwarz_sejajar ... ok
+test latihan::tests::minkowski_sama_dengan_nalgebra ... ok
+test latihan::tests::minkowski_ke_diri_sendiri_nol ... ok
+test task1::tests::manual_sama_dengan_nalgebra ... ok
+test task1::tests::norma_p_contoh_modul ... ok
+test task1::tests::norma_vektor_nol_adalah_nol ... ok
+test task2::tests::jarak_contoh ... ok
+test task2::tests::kosinus_searah_tegak_lurus_berlawanan ... ok
+test task2::tests::kosinus_vektor_nol_none ... ok
+test task2::tests::normalisasi ... ok
+test task2::tests::proyeksi_ke_vektor_nol_none ... ok
+test latihan::tests::latihan1_hubungan_norma ... ok
+test task3::tests::nilai_kosinus_d1 ... ok
+test task3::tests::skala_100_kosinus_tetap_euclidean_berubah ... ok
+test task3::tests::urutan_euclidean_d1_d2_d3 ... ok
+test task3::tests::urutan_kosinus_d1_d3_d2 ... ok
+test task1::tests::homogenitas_kali_dua ... ok
+test task1::tests::norma_p_turun_saat_p_naik ... ok
+test task1::tests::homogenitas ... ok
+test task1::tests::cauchy_schwarz ... ok
+test task2::tests::kosinus_selalu_di_rentang ... ok
+test latihan::tests::minkowski_simetris ... ok
+test task1::tests::segitiga ... ok
+test task3::tests::kosinus_invarian_skala_positif ... ok
+test task2::tests::komponen_tegak_ortogonal ... ok
+
+test result: ok. 28 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

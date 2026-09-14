@@ -1,0 +1,11 @@
+[package]
+name = "praktikum-al"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nalgebra = "0.35.0"
+
+# proptest cuma dipakai di test, jadi tidak ikut ter-compile ke program utama
+[dev-dependencies]
+proptest = "1"
