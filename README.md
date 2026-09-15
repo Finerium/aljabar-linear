@@ -23,7 +23,7 @@ sampai proyek terpadu PCA dan PageRank di modul terakhir.
 | Modul | Topik | Status |
 |---|---|---|
 | [Modul 1](2026-09-07-modul-1/) | Pengenalan Rust dan dasar komputasi vektor | selesai, 17 test lolos |
-| [Modul 2](2026-09-14-modul-2/) | Operasi vektor, norma, dan jarak | selesai, 28 test lolos (18 unit, 10 property test), deadline Teams Selasa 15 Sep 2026 23.59 |
+| [Modul 2](2026-09-14-modul-2/) | Operasi vektor, norma, dan jarak | selesai, 28 test lolos (18 unit, 10 property test), sudah dikumpulkan lewat Teams Selasa 15 Sep 2026 |
 
 ## Struktur
 
