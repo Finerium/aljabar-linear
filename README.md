@@ -15,8 +15,11 @@ sampai proyek terpadu PCA dan PageRank di modul terakhir.
 
 | Jenis | Waktu | Ruang | Dosen |
 |---|---|---|---|
-| Praktikum | Senin 08.40 - 10.40 | D102 Lab. MT | Muhammad Rizqi Sholahuddin, S.Si., M.T. |
-| Teori | Rabu 08.40 - 10.40 | D111 | Dr. Nurjannah Syakrani, DRA., M.T. |
+| Praktikum | Senin 08.40 - 10.20 | D102 Lab. MT | Muhammad Rizqi Sholahuddin, S.Si., M.T. |
+| Teori | Rabu 08.40 - 10.20 | D111 | Dr. Nurjannah Syakrani, DRA., M.T. |
+
+Mulai 21 September 2026 praktikum dan teori sama-sama selesai 10.20 (jam ke-3 dan ke-4), bukan 10.40
+seperti di daftar jadwal resmi.
 
 ## Progres
 
